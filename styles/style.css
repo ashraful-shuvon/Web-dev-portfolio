@@ -42,16 +42,14 @@
 }
 
 .section-title {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
   color: #181818;
-  text-align: center;
 }
 
 .section-description {
   font-size: 18px;
   color: #474747;
-  text-align: center;
 }
 
 hr {
@@ -108,13 +106,14 @@ nav li a {
   color: #474747;
   font-weight: 600;
   font-size: 45px;
+  line-height: 5px;
 }
 
 .banner-title {
   font-size: 55px;
   font-weight: 700;
   color: #181818;
-  margin-bottom: 20px;
+  line-height: 20px;
 }
 
 .banner-subtitle {
@@ -201,4 +200,32 @@ main section {
   color: #474747;
   font-size: 25px;
   margin-bottom: 0;
+}
+
+/* Footer styles */
+
+footer {
+  display: flex;
+  gap: 100px;
+  padding: 100px 200px;
+}
+
+footer .footer-column {
+  width: 50%;
+}
+footer textarea,
+input[type="text"],
+input[type="email"] {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: white;
+  height: 30px;
+  display: block;
+  margin-bottom: 10px;
+  width: 70%;
+}
+.social {
+  display: flex;
+  gap: 20px;
 }
